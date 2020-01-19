@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 
-def moduleId = "template" // FIXME replace with yours
+def moduleId = "mipush_fake" // FIXME replace with yours
 def riruApiVersion = 4
 
 android {
@@ -23,11 +23,11 @@ android {
 }
 
 def moduleProp = [
-        name       : "Template", // FIXME replace with yours
-        version    : "v1.0", // FIXME replace with yours
-        versionCode: "1", // FIXME replace with yours
-        author     : "Template", // FIXME replace with yours
-        description: "Riru module template.", // FIXME replace with yours
+        name       : "MiPushFake",
+        version    : "v13.0",
+        versionCode: "13",
+        author     : "Timothy",
+        description: "Fake as XiaoMI device by hook system_property_get. Require Riru-Core installed..",
         api        : riruApiVersion
 ]
 
